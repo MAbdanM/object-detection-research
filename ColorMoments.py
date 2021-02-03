@@ -46,5 +46,6 @@ def getColorMoment(channel):
     meanChannel = meanMoment(channel)
     varChannel = varianceMoment(channel, meanChannel)
     skewChannel = skewnessMoment(channel, meanChannel)
+
     #return meanChannel, varChannel, skewChannel
     return meanChannel, varChannel, skewChannel
